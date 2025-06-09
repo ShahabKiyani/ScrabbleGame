@@ -10,7 +10,39 @@ A simple multiplayer Scrabble game implemented with vanilla JavaScript for the f
 - 🧠 Game state managed in a simple store  
 - 🌐 Backend using Node.js with simple file-based storage  
 
-<pre lang="markdown"> ## 📁 Project Structure ``` ScrabbleGame-main/ │ ├── js/ # Legacy script (e.g. submit.js) ├── node_modules/ # Node.js dependencies ├── src/ │ ├── client/ # All frontend logic │ │ ├── index.html # Main HTML file │ │ ├── main.css # Styling │ │ ├── main.js # Entry point for JS │ │ ├── game.js # Board and game logic │ │ ├── rack.js # Tile rack logic │ │ ├── scoring.js # Score calculation │ │ ├── dictionary.* # Word list and lookup logic │ │ └── ... # Other utilities │ └── server/ │ ├── index.js # Main server file │ └── database.js # Simple file/database I/O │ ├── package.json # Project metadata and dependencies └── package-lock.json # Exact dependency versions ``` </pre>
+## 📁 Project Structure
+
+ScrabbleGame-main/
+│
+├── js/
+│ └── submit.js
+│
+├── node_modules/
+│ └── ... (installed packages)
+│
+├── src/
+│ ├── client/
+│ │ ├── index.html
+│ │ ├── main.css
+│ │ ├── main.js
+│ │ ├── game.js
+│ │ ├── rack.js
+│ │ ├── scoring.js
+│ │ ├── dictionary.js
+│ │ ├── dictionary.json
+│ │ ├── scrabbleUtils.js
+│ │ └── store.js
+│ │
+│ └── server/
+│ ├── index.js
+│ └── database.js
+│
+├── package.json
+├── package-lock.json
+└── .DS_Store
+
+Copy
+Edit
 
 shell
 Copy
