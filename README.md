@@ -11,8 +11,31 @@ A simple multiplayer Scrabble game implemented with vanilla JavaScript for the f
 - 🌐 Backend using Node.js with simple file-based storage  
 
 
-<pre lang="markdown"> ## 📁 Project Structure ``` ScrabbleGame-main/ ├── js/ │ └── submit.js ├── node_modules/ │ └── ... (installed packages) ├── src/ │ ├── client/ │ │ ├── index.html │ │ ├── main.css │ │ ├── main.js │ │ ├── game.js │ │ ├── rack.js │ │ ├── scoring.js │ │ ├── dictionary.js │ │ ├── dictionary.json │ │ ├── scrabbleUtils.js │ │ └── store.js │ └── server/ │ ├── index.js │ └── database.js ├── package.json ├── package-lock.json └── .DS_Store ``` </pre>
+## 📁 Project Structure
 
+ScrabbleGame-main/
+├── js/
+│ └── submit.js
+├── node_modules/
+│ └── ... (installed packages)
+├── src/
+│ ├── client/
+│ │ ├── index.html
+│ │ ├── main.css
+│ │ ├── main.js
+│ │ ├── game.js
+│ │ ├── rack.js
+│ │ ├── scoring.js
+│ │ ├── dictionary.js
+│ │ ├── dictionary.json
+│ │ ├── scrabbleUtils.js
+│ │ └── store.js
+│ └── server/
+│ ├── index.js
+│ └── database.js
+├── package.json
+├── package-lock.json
+└── .DS_Store
 shell
 Copy
 Edit
