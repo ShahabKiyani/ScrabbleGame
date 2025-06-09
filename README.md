@@ -51,10 +51,44 @@ bash
 Copy
 Edit
 node src/server/index.js
-The server will typically run on http://localhost:3000
+The server will typically run on:
+http://localhost:3000
 
 3. Open the game in a browser
-Open src/client/index.html directly in your browser or serve it via a static file server like:
+Open src/client/index.html directly in your browser
+OR serve it using a static file server:
+
+bash
+Copy
+Edit
+npx serve src/client
+yaml
+Copy
+Edit
+
+---
+
+### ✅ Paste that exactly into your `README.md`. It will render like this:
+
+---
+
+## 🛠️ Setup Instructions
+
+### 1. Install dependencies
+
+```bash
+npm install
+2. Run the server
+bash
+Copy
+Edit
+node src/server/index.js
+The server will typically run on:
+http://localhost:3000
+
+3. Open the game in a browser
+Open src/client/index.html directly in your browser
+OR serve it using a static file server:
 
 bash
 Copy
