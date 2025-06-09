@@ -60,12 +60,3 @@ bash
 Copy
 Edit
 npx serve src/client
-🧪 Technologies Used
-HTML/CSS/JS (Vanilla)
-
-Node.js
-
-File system I/O for data persistence
-
-📜 License
-MIT
