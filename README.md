@@ -10,28 +10,7 @@ A simple multiplayer Scrabble game implemented with vanilla JavaScript for the f
 - 🧠 Game state managed in a simple store  
 - 🌐 Backend using Node.js with simple file-based storage  
 
-## 📁 Project Structure
-
-ScrabbleGame-main/
-│
-├── js/ # Legacy script (e.g. submit.js)
-├── node_modules/ # Node.js dependencies
-├── src/
-│ ├── client/ # All frontend logic
-│ │ ├── index.html # Main HTML file
-│ │ ├── main.css # Styling
-│ │ ├── main.js # Entry point for JS
-│ │ ├── game.js # Board and game logic
-│ │ ├── rack.js # Tile rack logic
-│ │ ├── scoring.js # Score calculation
-│ │ ├── dictionary.* # Word list and lookup logic
-│ │ └── ... # Other utilities
-│ └── server/
-│ ├── index.js # Main server file
-│ └── database.js # Simple file/database I/O
-│
-├── package.json # Project metadata and dependencies
-└── package-lock.json # Exact dependency versions
+<pre lang="markdown"> ## 📁 Project Structure ``` ScrabbleGame-main/ │ ├── js/ # Legacy script (e.g. submit.js) ├── node_modules/ # Node.js dependencies ├── src/ │ ├── client/ # All frontend logic │ │ ├── index.html # Main HTML file │ │ ├── main.css # Styling │ │ ├── main.js # Entry point for JS │ │ ├── game.js # Board and game logic │ │ ├── rack.js # Tile rack logic │ │ ├── scoring.js # Score calculation │ │ ├── dictionary.* # Word list and lookup logic │ │ └── ... # Other utilities │ └── server/ │ ├── index.js # Main server file │ └── database.js # Simple file/database I/O │ ├── package.json # Project metadata and dependencies └── package-lock.json # Exact dependency versions ``` </pre>
 
 shell
 Copy
